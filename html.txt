@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>GARBAGE</title>
+<style>
+body{background:lime;color:red;font-size:37px}
+div{border:9px dotted blue;animation:spin 0.2s infinite;}
+@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(999deg)}}
+</style>
+<script>
+function x(){
+var a="git git git git";
+for(i=0;i<999;i++){
+console.log(a+i);
+document.body.innerHTML += "<marquee>"+a+i+"</marquee>";
+}
+alert("ERROR BUT NOT REALLY");
+}
+setInterval(x,5000);
+</script>
+</head>
+
+<body onclick="x()">
+
+<h7><h6><h5><h4><h3>HELLO GARBAGE</h3></h4></h5></h6></h7>
+
+<div>
+<p>
+git init git init git init git init git init git init <br>
+git push git pull git cry git scream
+</p>
+</div>
+
+<blink>THIS DOES NOTHING</blink>
+
+<marquee direction="right" scrollamount="99">
+G I T &nbsp; G A R B A G E &nbsp; C O D E
+</marquee>
+
+<input type="text" value="I DO NOTHING">
+<button onclick="x()">DON'T CLICK</button>
+
+<noscript>
+Nothing works anyway
+</noscript>
+
+</body>
+</html>
